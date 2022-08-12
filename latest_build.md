@@ -1,4 +1,4 @@
-2022-08-11
+2022-08-12
   
 CLI: revanced-cli-2.9.2-all.jar  
 Integrations: app-release-unsigned-v0.31.2.apk  
@@ -10,8 +10,8 @@ downloaded from: [APKMirror - YouTube](https://www.apkmirror.com/apk/google-inc/
 YouTube Music (arm64-v8a) version: 5.17.51  
 downloaded from: [APKMirror - YouTube Music arm64-v8a](https://www.apkmirror.com/apk/google-inc/youtube-music/youtube-music-5-17-51-release/youtube-music-5-17-51-2-android-apk-download/)  
 
-Twitter version: 9.53.0-release.0  
-downloaded from: [APKMirror - Twitter](https://www.apkmirror.com/apk/twitter-inc/twitter/twitter-9-53-0-release-0-release/twitter-9-53-0-release-0-android-apk-download/)  
+Twitter version: 9.54.0-release.0  
+downloaded from: [APKMirror - Twitter](https://www.apkmirror.com/apk/twitter-inc/twitter/twitter-9-54-0-release-0-release/twitter-9-54-0-release-0-2-android-apk-download/)  
 
 Reddit version: 2022.28.0  
 downloaded from: [APKMirror - Reddit](https://www.apkmirror.com/apk/redditinc/reddit/reddit-2022-28-0-release/reddit-2022-28-0-2-android-apk-download/)  
