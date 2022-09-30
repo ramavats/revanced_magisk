@@ -1,17 +1,18 @@
-2022-08-16
+2022-09-30
   
-CLI: revanced-cli-2.9.3-all.jar  
-Integrations: app-release-unsigned-v0.33.1.apk  
-Patches: revanced-patches-2.37.0.jar  
+CLI: revanced-cli-2.13.0-all.jar  
+Integrations: app-release-unsigned-v0.45.0.apk  
+Patches: revanced-patches-2.75.1.jar  
+[Patches Changelog](https://github.com/revanced/revanced-patches/releases/tag/v2.75.1)  
 
-YouTube version: 17.29.34  
-downloaded from: [APKMirror - YouTube](https://www.apkmirror.com/apk/google-inc/youtube/youtube-17-29-34-release/youtube-17-29-34-android-apk-download/)  
+Twitter version: 9.61.0-release.0  
 
-YouTube Music (arm64-v8a) version: 5.17.51  
-downloaded from: [APKMirror - YouTube Music arm64-v8a](https://www.apkmirror.com/apk/google-inc/youtube-music/youtube-music-5-17-51-release/youtube-music-5-17-51-2-android-apk-download/)  
+Reddit version: 2022.36.0  
 
-Twitter version: 9.54.0-release.0  
-downloaded from: [APKMirror - Twitter](https://www.apkmirror.com/apk/twitter-inc/twitter/twitter-9-54-0-release-0-release/twitter-9-54-0-release-0-2-android-apk-download/)  
+YouTube version: 17.36.37  
 
-Reddit version: 2022.30.0  
-downloaded from: [APKMirror - Reddit](https://www.apkmirror.com/apk/redditinc/reddit/reddit-2022-30-0-release/reddit-2022-30-0-android-apk-download/)  
+Music (arm64-v8a) version: 5.25.51  
+
+Music (arm-v7a) version: 5.25.51  
+
+[revanced-magisk-module repo](https://github.com/j-hc/revanced-magisk-module)
