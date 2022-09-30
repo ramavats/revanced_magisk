@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-set -euo pipefail
+set -eu -o pipefail
 
 source build.conf
 source utils.sh
@@ -13,7 +13,7 @@ if [ -z ${1+x} ]; then
 	print_usage
 	exit 0
 elif [ "$1" = "clean" ]; then
-	rm -r revanced-cache ./*.jar ./*.apk ./*.zip build.log build || true
+	rm -rf revanced-cache build.log build
 	reset_template
 	exit 0
 elif [ "$1" = "reset-template" ]; then
@@ -28,16 +28,19 @@ fi
 
 : >build.log
 log "$(date +'%Y-%m-%d')\n"
-mkdir -p "$BUILD_DIR"
+mkdir -p "$BUILD_DIR" "$TEMP_DIR"
 
 if [ "$UPDATE_PREBUILTS" = true ]; then get_prebuilts; else set_prebuilts; fi
-dl_xdelta
+reset_template
+get_cmpr
 
-if [ "$BUILD_YT" = true ]; then build_yt; fi
-if [ "$BUILD_MUSIC_ARM64_V8A" = true ]; then build_music "$ARM64_V8A"; fi
-if [ "$BUILD_MUSIC_ARM_V7A" = true ]; then build_music "$ARM_V7A"; fi
 if [ "$BUILD_TWITTER" = true ]; then build_twitter; fi
 if [ "$BUILD_REDDIT" = true ]; then build_reddit; fi
+if [ "$BUILD_WARN_WETTER" = true ]; then build_warn_wetter; fi
+if [ "$BUILD_TIKTOK" = true ]; then build_tiktok; fi
+if [ "$BUILD_YT" = true ]; then build_yt; fi
+if [ "$BUILD_MUSIC_ARM64_V8A" = true ]; then build_music $ARM64_V8A; fi
+if [ "$BUILD_MUSIC_ARM_V7A" = true ]; then build_music $ARM_V7A; fi
 if [ "$BUILD_MINDETACH_MODULE" = true ]; then
 	echo "Building mindetach module"
 	cd mindetach-magisk/mindetach/
@@ -48,4 +51,5 @@ if [ "$BUILD_MINDETACH_MODULE" = true ]; then
 	cd ../../
 fi
 
+reset_template
 echo "Done"
