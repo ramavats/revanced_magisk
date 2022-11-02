@@ -1,15 +1,15 @@
-2022-11-01
+2022-11-02
   
 CLI: revanced-cli-2.16.0-all.jar  
-Integrations: app-release-unsigned-v0.65.0.apk  
-Patches: revanced-patches-2.100.3.jar  
-[Patches Changelog](https://github.com/revanced/revanced-patches/releases/tag/v2.100.3)  
+Integrations: app-release-unsigned-v0.66.0.apk  
+Patches: revanced-patches-2.101.0.jar  
+[Patches Changelog](https://github.com/revanced/revanced-patches/releases/tag/v2.101.0)  
 
 Twitter version: 9.65.1-release.0  
 
-Reddit version: 2022.40.0  
+Reddit version: 2022.41.0  
 
-YouTube version: 17.41.37  
+YouTube version: 17.43.36  
 
 Music (arm64-v8a) version: 5.29.52  
 
