@@ -1,11 +1,11 @@
-2022-11-16
+2022-11-18
   
-CLI: revanced-cli-2.16.0-all.jar  
+CLI: revanced-cli-2.16.1-all.jar  
 Integrations: app-release-unsigned-v0.71.0.apk  
-Patches: revanced-patches-2.111.0.jar  
-[Patches Changelog](https://github.com/revanced/revanced-patches/releases/tag/v2.111.0)  
+Patches: revanced-patches-2.111.2.jar  
+[Patches Changelog](https://github.com/revanced/revanced-patches/releases/tag/v2.111.2)  
 
-Twitter version: 9.65.3-release.0  
+Twitter version: 9.65.5-release.0  
 
 Reddit version: 2022.43.0  
 
