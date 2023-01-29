@@ -1,9 +1,9 @@
-2023-01-28
+2023-01-29
   
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.94.0-v0.94.0.apk  
-Patches: revanced-patches-2.157.0.jar  
-[Patches Changelog](https://github.com/revanced/revanced-patches/releases/tag/v2.157.0)  
+Integrations: revanced-integrations-0.94.1-v0.94.1.apk  
+Patches: revanced-patches-2.158.0.jar  
+[Patches Changelog](https://github.com/revanced/revanced-patches/releases/tag/v2.158.0)  
 
 Twitter version: 9.73.0-release.0  
 
