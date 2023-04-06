@@ -1,13 +1,13 @@
-2023-04-01
+2023-04-06
   
 CLI: revanced-cli-2.21.0-all.jar  
 Integrations: revanced-integrations-0.101.0-v0.101.0.apk  
-Patches: revanced-patches-2.168.0.jar  
-[Patches Changelog](https://github.com/revanced/revanced-patches/releases/tag/v2.168.0)  
+Patches: revanced-patches-2.167.0.jar  
+[Patches Changelog](https://github.com/revanced/revanced-patches/releases/tag/v2.167.0)  
 
-Twitter version: 9.82.0-release.0  
+Twitter version: 9.83.0-release.0  
 
-Reddit version: 2023.12.0  
+Reddit version: 2023.13.0  
 
 YouTube version: 17.49.37  
 
